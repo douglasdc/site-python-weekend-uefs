@@ -1,0 +1,23 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#"><img class="logo-small" src="<%= @getTheme() %>/images/logo-small.png" alt="Python Nordeste"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#evento" data-article="evento">Evento</a></li>
+        <li><a href="#programacao" data-article="programacao">Programação</a></li>
+        <li><a href="#" data-article="inscricoes">Inscreva-se</a></li>
+        <li><a href="#local" data-article="local">Local</a></li>
+        <li><a href="#patrocinadores" data-article="patrocinadores">Patrocinadores</a></li>
+        <li><a href="mailto:contato@pythonnordeste.org?Subject=Python%20Nordeste">Contato</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>

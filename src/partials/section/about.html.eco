@@ -1,0 +1,17 @@
+ <div id="evento" class="event-wrap full-bg" data-speed="0.6">
+  <article class="container evento">
+    <div class="event-desc">
+        <h2>O evento</h2>
+        <p><%= @conf.sobre_evento %></p>
+    </div>
+    <div class="thumb-city">
+      <img src="<%= @getTheme() %>/images/salvador-thumb1.jpg" alt="Python evento"/>
+    </div>
+    <div class="thumb-city">
+      <img src="<%= @getTheme() %>/images/salvador-thumb2.jpg" alt="Nordeste"/>
+    </div>
+    <div class="thumb-city">
+      <img src="<%= @getTheme() %>/images/salvador-thumb3.jpg" alt="Encontro Programação"/>
+    </div>
+  </article>
+</div>

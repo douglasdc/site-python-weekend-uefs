@@ -1,0 +1,16 @@
+<div id="local" class="full-bg local-wrap">
+  <article class="container local">
+    <div class="col-lg-12">
+      <div class="row centered">
+        <h2>Local do evento - <%= @conf.data %></h2>
+      </div>
+      <div class="local-pic">
+        <p class="local-name"><strong><%= @conf.local %></strong>
+        <br/>
+        <small><%= @conf.endereco %><br> <%= @conf.cidade %> - <%= @conf.estado %>, <%= @conf.pais %></small>
+        </p>
+      </div>
+    </div>
+  </article>
+  <div id="map-canvas" class="gmap"></div>
+</div>

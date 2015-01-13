@@ -1,0 +1,24 @@
+<div id="pyzumbi" class="full-bg pyzumbi-wrap">
+  <div class="pyzumbi-bg">
+    <article class="container pyzumbi">
+      <div class="col-lg-12">
+        <div class="row">
+          <h2>Minicurso - <%= @curso.data %></h2>
+          <div class="minicourse-content">
+            <div class="minicourse-about">
+              <p class="learn-it"><%= @curso.descricao_rapida %></p>
+            </div>
+            <div class="minicourse-video">
+              <iframe width="560" height="315" src="//www.youtube.com/embed/ioya7nGct-o?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="minicourse-info">
+              <p class="minicourse-speaker"><%= @curso.nome_palestrante %></p>
+              <p>Professor FATEC-SP</p>
+              <p><%= @curso.sobre_palestrante %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
