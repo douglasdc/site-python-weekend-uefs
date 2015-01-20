@@ -1,0 +1,243 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+
+  <title itemprop="name"></title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- FACEBOOK -->
+  <meta property="fb:app_id" content="372862979453673">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/themes/yellow-swan/img/badge.jpg">
+  <!-- / FACEBOOK -->
+
+  <link rel="shortcut icon" href="themes/yellow-swan/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="themes/yellow-swan/img/apple-touch-icon.png">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" type="text/css" href="themes/yellow-swan/css/main.css">
+  <!-- / STYLES -->
+
+</head>
+<body>
+
+  <div class="global">
+
+    <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#"><img class="logo-small" src="themes/yellow-swan/images/logo-small.png" alt="Python Nordeste"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#evento" data-article="evento">Evento</a></li>
+        <li><a href="#programacao" data-article="programacao">Programação</a></li>
+        <li><a href="#" data-article="inscricoes">Inscreva-se</a></li>
+        <li><a href="#local" data-article="local">Local</a></li>
+        <li><a href="#patrocinadores" data-article="patrocinadores">Patrocinadores</a></li>
+        <li><a href="mailto:contato@pythonnordeste.org?Subject=Python%20Nordeste">Contato</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    <div id="headerwrap" class="full-bg">
+  <div class="container">
+    <div class="row centered">
+      <img src="themes/yellow-swan/images/logo.png" alt="Python Nordeste 2014">
+      <p class="event-date">November 15</p>
+      <p class="headline">Conference description</p>
+    </div><!-- /row -->
+  </div><!-- /container -->
+</div><!-- /headerwrap -->
+
+    <!-- CONTENT -->
+    <div class="content" id="content">
+      <div class="wrapper">
+        
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
+     <div id="evento" class="event-wrap full-bg" data-speed="0.6">
+  <article class="container evento">
+    <div class="event-desc">
+        <h2>O evento</h2>
+        <p>Sobre o evento</p>
+    </div>
+    <div class="thumb-city">
+      <img src="themes/yellow-swan/images/salvador-thumb1.jpg" alt="Python evento"/>
+    </div>
+    <div class="thumb-city">
+      <img src="themes/yellow-swan/images/salvador-thumb2.jpg" alt="Nordeste"/>
+    </div>
+    <div class="thumb-city">
+      <img src="themes/yellow-swan/images/salvador-thumb3.jpg" alt="Encontro Programação"/>
+    </div>
+  </article>
+</div>
+  </section>
+
+  <!-- / ABOUT -->
+
+  <!-- MINICURSO -->
+
+  <section class="minicurso" id="minicurso">
+    <div id="pyzumbi" class="full-bg pyzumbi-wrap">
+  <div class="pyzumbi-bg">
+    <article class="container pyzumbi">
+      <div class="col-lg-12">
+        <div class="row">
+          <h2>Minicurso - Data minicurso</h2>
+          <div class="minicourse-content">
+            <div class="minicourse-about">
+              <p class="learn-it">Course description</p>
+            </div>
+            <div class="minicourse-video">
+              <iframe width="560" height="315" src="//www.youtube.com/embed/ioya7nGct-o?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="minicourse-info">
+              <p class="minicourse-speaker"></p>
+              <p>Professor FATEC-SP</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+  </section>
+
+  <!-- / MINICURSO -->
+
+  <!-- LOCATION -->
+
+  <section class="location" id="location">
+    <div id="local" class="full-bg local-wrap">
+  <article class="container local">
+    <div class="col-lg-12">
+      <div class="row centered">
+        <h2>Local do evento - November 15</h2>
+      </div>
+      <div class="local-pic">
+        <p class="local-name"><strong>Coco Bongo</strong>
+        <br/>
+        <small>Endereço do evento<br> Feira de Santana - BA, Brasil</small>
+        </p>
+      </div>
+    </div>
+  </article>
+  <div id="map-canvas" class="gmap"></div>
+</div>
+  </section>
+
+  <!-- / LOCATION -->
+
+  <!-- PAYMENT -->
+
+  <section class="payment" id="payment">
+    <div id="inscricoes" class="full-bg subscribe-wrap">
+  <article class="container inscricoes">
+    <div class="col-lg-12">
+      <div class="row centered">
+        <h2>Inscrições</h2>
+        <iframe src="http://eventick.com.br/python-nordeste-2014/embedded" frameborder="0" height="435px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="no" allowtransparency="true"></iframe>
+      </div>
+    </div>
+    <p>Observação: os minicursos serão vendidos separadamente.</p>
+  </article>
+</div>  
+  </section>
+
+  <!-- / PAYMENT -->
+
+  <!-- SCHEDULE -->
+
+  <section class="schedule" id="schedule">
+    <div id="programacao" class="full-bg schedule-wrap">
+  <article class="container programacao">
+    <div class="col-lg-12">
+      <div class="row">
+        <h2>Programação</h2>
+        <p><strong>1º de Maio das 8h30 às 17h00:</strong> Minicurso Python para Zumbis* - Fernando Masanori
+        <br /><small><em>*Necessário levar notebook</em></small></p>
+        <table class="daily-schedule with-time table table-striped">
+          <thead>
+            <tr>
+              <th class="schedule-time"></th>
+              <th class="schedule-speaker">2 de Maio</th>
+              <th class="schedule-activity"></th>
+            </tr>
+          </thead>
+          <tbody>
+          
+            <tr>
+              <td>Horário da palestra</td>
+              <td>Nome do palestrante</td>
+              <td>Titulo da palestra</td>
+            </tr>
+          
+            <tr>
+              <td>08:30</td>
+              <td>Douglas da Cruz Cerqueira</td>
+              <td>Django para desenvolvimento de paginas web</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </article>
+</div>
+  </section>
+
+  <!-- / SCHEDULE -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> :)</p>
+        </footer>
+        <!-- / FOOTER -->
+      </div>
+    </div>
+    <!-- / CONTENT -->
+
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="themes/yellow-swan/js/jquery.js"><\/script>')</script>
+
+  
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="themes/yellow-swan/js/main.js"></script>
+  
+
+  <!-- GOOGLE ANALYTICS -->
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33656081-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  <!-- /GOOGLE ANALYTICS -->
+
+</body>
+</html>
