@@ -36,13 +36,6 @@ module.exports = {
 				link: "http://eventick.com.br"
 		},
 
-		// Site info
-		site: {
-			theme: "yellow-swan",
-			url: "",
-			googleanalytics: "UA-33656081-1"
-		},
-
 		// Active sections on the website
 		// to deactivate comment out with '//'
 		// you can also change order here and it will reflect on page
@@ -98,14 +91,5 @@ module.exports = {
 			}
 		],
 
-		// Theme path
-		getTheme: function() {
-			return "themes/" + this.site.theme;
-		},
-
-		// Site Path
-		getUrl: function() {
-			return this.site.url;
-		}
 	}
 };

@@ -8,32 +8,32 @@ module.exports = {
 		// Conference info
 		conf: {
 			nome: "Python Weekend 2015 | Feira de Santana - Bahia - Brasil",
-			descricao_rapida: "Conference description",
-			sobre_evento: "Sobre o evento",
-			data: "November 15",
+			descricao_rapida: "Um final de semana sobre Python",
+			sobre_evento: "O Python Weekend é um evento realizado por pessoas como você que tem utilizam Python ou tem interesse em aprender mais",
+			data: "14 e 15 de Março",
 			// If your event is free, just comment this line
-			preco: "$100",
-			local: "Coco Bongo",
-			endereco: "Endereço do evento",
+			preco: "$30 reais (Promocional)",
+			local: "Auditório do Multiplace",
+			endereco: " Rua Jovelino Carneiro, 3665, Feira de Santana - BA, 44149-999",
 			cidade: "Feira de Santana", 
 			estado: "BA",
 			pais: "Brasil"
 		},
 
 		curso: {
-			nome: "Name of course",
-			data: "Data minicurso",
+			nome: "Python para Zumbis,
+			data: "14 de Março",
 			horario: "Horario minicurso",
-			descricao_rapida: "Course description",
-			name_palestrante: "",
-			sobre_palestrante: ""
+			descricao_rapida: "",
+			name_palestrante: "Fernando Masanori",
+			sobre_palestrante: "Docente da FATEC São José dos Campos, adora dar aulas, graduado em Computação pelo IME-USP, mestrado pelo ITA. Desenvolveu projetos para a Cobra Tecnologia, Credicard Mastercard, PriceWaterhouse & Coopers e Itaú BankBoston. Interesses: Python, NoSQL, Pentaho, Google Technology, Facebook."
 		},
 
 		// The Call To Action button at the header,
 		// If you don't want this, just remove the callToAction property.
 		callToAction: {
-				text: "Register now!",
-				link: "http://eventick.com.br"
+				text: "Inscreva-se agora!",
+				link: ""
 		},
 
 		// Active sections on the website
@@ -53,41 +53,82 @@ module.exports = {
 		// Labels which you can translate to other languages
 		labels: {
 			about: "About",
-			location: "Location",
+			location: "Auditório do Multiplace",
 			speakers: "Speakers",
 			schedule: "Schedule",
 			sponsors: "Sponsors",
 			partners: "Partners",
-			contact: "Contact"
+			contact: "lucas.ecomp2012@gmail.com/daecompuefs@gmail.com/(75) 9134-9390"
 		},
 
 		programacao: [
 			{
-				horario: "Horário da palestra",
-				palestrante: "Nome do palestrante",
-				titulo: "Titulo da palestra"
+				horario: "8:30 - 10:50",
+				palestrante: "Total Informática",
+				titulo: "Minicurso - Interface Gráfica com Python"
 			},
 			{
-				horario: "08:30",
+				horario: "10:50 - 11:30",
+				palestrante: "Tupy",
+				titulo: "Sendo definido"
+			},
+			{
+				horario: "11:30 - 12:10",
+				palestrante: "Ivo Lima",
+				titulo: "Sendo definido"
+			},
+			{
+				horario: "14:10 - 14:50",
+				palestrante: "Diego Leite",
+				titulo: "Scrapy"
+			},
+			{
+				horario: "14:50 - 15:30",
+				palestrante: "Jonata Weber",
+				titulo: "Home-Office"
+			},
+			{
+				horario: "15:50 - 16:30",
 				palestrante: "Douglas da Cruz Cerqueira",
 				titulo: "Django para desenvolvimento de paginas web"
 			}
+			{
+				horario: "16:30 - 17:10",
+				palestrante: "Total Informática",
+				titulo: "Minicurso - Interface Gráfica com Python"
+			},
 		],
 
 		patrocinadores: [
 			{
-				nome: "",
+				nome: "Asa Inovação",
+				logo: "themes/asa.jpg",
+				url: "http://www.asainovacao.com.br/"
+			},
+			{
+				nome: "D.A. Ecomp Uefs",
+				logo: "themes/da-ecomp.jpg",
+				url: "https://www.facebook.com/d.a.ecomp.uefs.7"
+			},
+			{
+				nome: "Sagui Tech",
 				logo: "",
 				url: ""
+			},
+			{
+				nome: "Total Informática",
+				logo: "themes/total.png",
+				url: "http://www.infototal.com.br/"
 			}
 		],
+		
 
 		// List of Sponsors
 		sponsors: [
 			{
-				name: "Eventick",
-				logo: "themes/yellow-swan/img/sponsor.png",
-				url: "http://eventick.com.br"
+				name: "Doity",
+				logo: "themes/doity.png",
+				url: "http://doity.com.br"
 			}
 		],
 
