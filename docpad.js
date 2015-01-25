@@ -33,7 +33,7 @@ module.exports = {
 		// If you don't want this, just remove the callToAction property.
 		callToAction: {
 				text: "Inscreva-se agora!",
-				link: ""
+				link: "www.doity.com.br/python-weekend-2015"
 		},
 
 		// Active sections on the website
@@ -44,7 +44,7 @@ module.exports = {
 		'minicurso',
 			'location',
 		'payment',
-			'schedule',
+			//'schedule',
 			//'sponsors'
 			//'partners'
 			// 'contact'
@@ -52,13 +52,13 @@ module.exports = {
 
 		// Labels which you can translate to other languages
 		labels: {
-			about: "About",
-			location: "Auditório do Multiplace",
-			speakers: "Speakers",
-			schedule: "Schedule",
-			sponsors: "Sponsors",
-			partners: "Partners",
-			contact: "lucas.ecomp2012@gmail.com/daecompuefs@gmail.com/(75) 9134-9390"
+			about: "Sobre",
+			location: "Localização",
+			speakers: "Palestrantes",
+			schedule: "Programação",
+			sponsors: "Patrocinadores",
+			partners: "Parceiros",
+			contact: "Contato"
 		},
 
 		programacao: [
